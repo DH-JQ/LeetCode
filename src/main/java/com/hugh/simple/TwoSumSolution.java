@@ -41,8 +41,4 @@ public class TwoSumSolution {
         throw new IllegalArgumentException("不存在这样的数");
     }
 
-    public static void main(String[] args) {
-        TwoSumSolution solution = new TwoSumSolution();
-        System.out.println(Arrays.toString(solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
-    }
 }
