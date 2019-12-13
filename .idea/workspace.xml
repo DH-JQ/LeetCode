@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ee4ead-c5af-4d98-990b-779d20518bcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/simple/ReverseIntegerSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hugh/simple/ReverseIntegerSolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hugh/simple/TwoSumSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hugh/simple/TwoSumSolution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,29 +40,68 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1Uw1Nkj7PLjCjXyxx9KqMnKgHfP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hugh.simple" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\LeetCode\src\main\java" />
       <recent name="D:\Code\LeetCode" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ReverseIntegerSolutionTest">
+    <configuration name="ReverseIntegerSolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hugh.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hugh.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.ReverseIntegerSolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseIntegerSolutionTest.testReverseInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hugh.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hugh.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.ReverseIntegerSolutionTest" />
+      <option name="METHOD_NAME" value="testReverseInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSumSolutionTest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -75,6 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverseIntegerSolutionTest" />
+        <item itemvalue="JUnit.ReverseIntegerSolutionTest.testReverseInteger" />
         <item itemvalue="JUnit.TwoSumSolutionTest.testTwoSum" />
       </list>
     </recent_temporary>
@@ -101,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576252805956</updated>
-      <workItem from="1576252807269" duration="931000" />
+      <workItem from="1576252807269" duration="2613000" />
     </task>
     <task id="LOCAL-00001" summary="twoSum">
       <created>1576252895505</created>
@@ -110,17 +157,37 @@
       <option name="project" value="LOCAL" />
       <updated>1576252895505</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test twoSum">
+      <created>1576253784285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576253784285</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test twoSum">
+      <created>1576253859474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576253859474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="twoSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="twoSum" />
+    <MESSAGE value="test twoSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="test twoSum" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="102" y="100" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576255227559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="102" y="100" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1576255227559" />
     <state x="635" y="309" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576253365183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -129,33 +196,64 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1576253631001" />
-    <state x="327" y="9" key="CommitChangelistDialog2" timestamp="1576253783163">
+    <state x="592" y="368" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576254809648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="327" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576253783163" />
-    <state width="1342" height="123" key="GridCell.Tab.0.bottom" timestamp="1576253741398">
+    <state x="592" y="368" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1576254809648" />
+    <state x="327" y="9" key="CommitChangelistDialog2" timestamp="1576253858383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576253741398" />
-    <state width="1342" height="123" key="GridCell.Tab.0.center" timestamp="1576253741398">
+    <state x="327" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576253858383" />
+    <state width="1342" height="242" key="GridCell.Tab.0.bottom" timestamp="1576255469202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576253741398" />
-    <state width="1342" height="123" key="GridCell.Tab.0.left" timestamp="1576253741397">
+    <state width="1342" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.0.center" timestamp="1576255469202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576253741397" />
-    <state width="1342" height="123" key="GridCell.Tab.0.right" timestamp="1576253741398">
+    <state width="1342" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.0.left" timestamp="1576255469202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576253741398" />
-    <state x="634" y="218" key="Vcs.Push.Dialog.v2" timestamp="1576253801371">
+    <state width="1342" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.0.right" timestamp="1576255469202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="634" y="218" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576253801371" />
+    <state width="1342" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.1.bottom" timestamp="1576255469202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.1.center" timestamp="1576255469202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.1.left" timestamp="1576255469202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state width="1342" height="242" key="GridCell.Tab.1.right" timestamp="1576255469202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
+    <state x="634" y="218" key="Vcs.Push.Dialog.v2" timestamp="1576253879859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="634" y="218" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576253879859" />
     <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576253552478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1576253552478" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hugh/simple/ReverseIntegerSolutionTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
