@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ee4ead-c5af-4d98-990b-779d20518bcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/simple/ReverseIntegerSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hugh/simple/ReverseIntegerSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/simple/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hugh/simple/PalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +69,22 @@
       <recent name="D:\Code\LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseIntegerSolutionTest">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hugh.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hugh.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.PalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseIntegerSolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -120,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.ReverseIntegerSolutionTest" />
         <item itemvalue="JUnit.ReverseIntegerSolutionTest.testReverseInteger" />
         <item itemvalue="JUnit.TwoSumSolutionTest.testTwoSum" />
@@ -148,7 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576252805956</updated>
-      <workItem from="1576252807269" duration="2613000" />
+      <workItem from="1576252807269" duration="3449000" />
+      <workItem from="1576506287707" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="twoSum">
       <created>1576252895505</created>
@@ -171,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576253859474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test ReverseInteger">
+      <created>1576255506432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576255506432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +204,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="twoSum" />
     <MESSAGE value="test twoSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="test twoSum" />
+    <MESSAGE value="test ReverseInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="test ReverseInteger" />
   </component>
   <component name="WindowStateProjectService">
     <state x="102" y="100" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576255227559">
@@ -200,46 +224,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="368" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1576254809648" />
-    <state x="327" y="9" key="CommitChangelistDialog2" timestamp="1576253858383">
+    <state x="327" y="9" key="CommitChangelistDialog2" timestamp="1576255505502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="327" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576253858383" />
-    <state width="1342" height="242" key="GridCell.Tab.0.bottom" timestamp="1576255469202">
+    <state x="327" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576255505502" />
+    <state x="483" y="147" key="FileChooserDialogImpl" timestamp="1576291932997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.0.center" timestamp="1576255469202">
+    <state x="483" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576291932997" />
+    <state width="1342" height="242" key="GridCell.Tab.0.bottom" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.0.left" timestamp="1576255469202">
+    <state width="1342" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1342" height="242" key="GridCell.Tab.0.center" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.0.right" timestamp="1576255469202">
+    <state width="1342" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1342" height="242" key="GridCell.Tab.0.left" timestamp="1576291939492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.1.bottom" timestamp="1576255469202">
+    <state width="1342" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576291939492" />
+    <state width="1342" height="242" key="GridCell.Tab.0.right" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.1.center" timestamp="1576255469202">
+    <state width="1342" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1342" height="242" key="GridCell.Tab.1.bottom" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.1.left" timestamp="1576255469202">
+    <state width="1342" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1342" height="242" key="GridCell.Tab.1.center" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state width="1342" height="242" key="GridCell.Tab.1.right" timestamp="1576255469202">
+    <state width="1342" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1342" height="242" key="GridCell.Tab.1.left" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576255469202" />
-    <state x="634" y="218" key="Vcs.Push.Dialog.v2" timestamp="1576253879859">
+    <state width="1342" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1342" height="242" key="GridCell.Tab.1.right" timestamp="1576291939493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="634" y="218" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576253879859" />
+    <state width="1342" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state x="634" y="218" key="Vcs.Push.Dialog.v2" timestamp="1576255516289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="634" y="218" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576255516289" />
     <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576253552478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

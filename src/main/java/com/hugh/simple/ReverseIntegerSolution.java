@@ -44,9 +44,5 @@ public class ReverseIntegerSolution {
             x /= 10;
         }
         return rev;
-
-
-
-
     }
 }
