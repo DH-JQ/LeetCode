@@ -41,15 +41,15 @@ public class BracketValidTest {
     @Test
     public void testIsValid2() throws Exception {
         //TODO: Test goes here...
-        boolean valid = bracketValid.isValid("(#)");
-        Assert.assertTrue(valid);
+        boolean valid = bracketValid.isValid("())");
+        Assert.assertFalse(valid);
 
     }
 
     @Test
     public void testIsValid3() throws Exception {
         //TODO: Test goes here...
-        boolean valid = bracketValid.isValid("((#)");
+        boolean valid = bracketValid.isValid("(()");
         Assert.assertFalse(valid);
 
     }
