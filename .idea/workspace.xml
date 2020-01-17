@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36ee4ead-c5af-4d98-990b-779d20518bcc" name="Default Changelist" comment="test RomanToInt">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/simple/BracketValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/simple/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hugh/simple/BracketValidTest.java" afterDir="false" />
+    <list default="true" id="36ee4ead-c5af-4d98-990b-779d20518bcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hugh/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hugh/simple/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +72,8 @@
       <recent name="D:\Code\LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BracketValidTest">
-    <configuration name="BracketValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest.testLevelOrder">
+    <configuration name="BinaryTreeTest.testGetHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -80,29 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hugh.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.BracketValidTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BracketValidTest.testIsValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hugh.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hugh.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.BracketValidTest" />
-      <option name="METHOD_NAME" value="testIsValid2" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testGetHeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.testLastOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -111,29 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hugh.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.RomanToIntTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToIntTest.testIllegal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hugh.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hugh.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.RomanToIntTest" />
-      <option name="METHOD_NAME" value="testIllegal" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testLastOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToIntTest.testThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.testLevelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +114,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hugh.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.RomanToIntTest" />
-      <option name="METHOD_NAME" value="testThree" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.simple.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testLevelOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree.firstOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hugh.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hugh.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.tree.BinaryTree" />
+      <option name="METHOD_NAME" value="firstOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree.lastOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hugh.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hugh.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.hugh.tree.BinaryTree" />
+      <option name="METHOD_NAME" value="lastOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BracketValidTest" />
-        <item itemvalue="JUnit.BracketValidTest.testIsValid2" />
-        <item itemvalue="JUnit.RomanToIntTest.testThree" />
-        <item itemvalue="JUnit.RomanToIntTest.testIllegal" />
-        <item itemvalue="JUnit.RomanToIntTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.testLevelOrder" />
+        <item itemvalue="JUnit.BinaryTreeTest.testGetHeight" />
+        <item itemvalue="JUnit.BinaryTreeTest.testLastOrder" />
+        <item itemvalue="JUnit.BinaryTree.lastOrder" />
+        <item itemvalue="JUnit.BinaryTree.firstOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +188,8 @@
       <workItem from="1576252807269" duration="3449000" />
       <workItem from="1576506287707" duration="6413000" />
       <workItem from="1576597307231" duration="1341000" />
-      <workItem from="1577113065862" duration="1779000" />
+      <workItem from="1577113065862" duration="2511000" />
+      <workItem from="1578369999172" duration="11301000" />
     </task>
     <task id="LOCAL-00001" summary="twoSum">
       <created>1576252895505</created>
@@ -228,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576510679226</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test BracketValid">
+      <created>1577114876330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577114876330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test BracketValid">
+      <created>1577114954583</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577114954583</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,17 +259,26 @@
     <MESSAGE value="test twoSum" />
     <MESSAGE value="test ReverseInteger" />
     <MESSAGE value="test RomanToInt" />
-    <option name="LAST_COMMIT_MESSAGE" value="test RomanToInt" />
+    <MESSAGE value="test BracketValid" />
+    <option name="LAST_COMMIT_MESSAGE" value="test BracketValid" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="436" y="106" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578378272299">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="106" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578378272299" />
     <state x="102" y="100" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576255227559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="102" y="100" width="1200" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1576255227559" />
-    <state x="635" y="309" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576253365183">
+    <state x="530" y="17" key="#com.intellij.ide.util.MemberChooser" timestamp="1578370158994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="635" y="309" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1576253365183" />
+    <state x="530" y="17" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578370158994" />
+    <state x="635" y="309" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578370021344">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="635" y="309" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1578370021344" />
     <state x="467" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576253631001">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -259,54 +287,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="368" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1576597457385" />
-    <state x="327" y="9" key="CommitChangelistDialog2" timestamp="1577114875179">
+    <state x="327" y="9" key="CommitChangelistDialog2" timestamp="1577114953546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="327" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577114875179" />
-    <state x="483" y="147" key="FileChooserDialogImpl" timestamp="1576291932997">
+    <state x="327" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577114953546" />
+    <state x="483" y="147" key="FileChooserDialogImpl" timestamp="1578733433919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="483" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576291932997" />
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1577114942172">
+    <state x="483" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578733433919" />
+    <state width="1483" height="78" key="GridCell.Tab.0.bottom" timestamp="1578733436031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577114942172" />
-    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1577114942172">
+    <state width="1483" height="78" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578733436031" />
+    <state width="1483" height="78" key="GridCell.Tab.0.center" timestamp="1578733436030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577114942172" />
-    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1577114942172">
+    <state width="1483" height="78" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578733436030" />
+    <state width="1483" height="78" key="GridCell.Tab.0.left" timestamp="1578733436030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577114942172" />
-    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1577114942172">
+    <state width="1483" height="78" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578733436030" />
+    <state width="1483" height="78" key="GridCell.Tab.0.right" timestamp="1578733436030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577114942172" />
-    <state width="1342" height="242" key="GridCell.Tab.1.bottom" timestamp="1576291939493">
+    <state width="1483" height="78" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578733436030" />
+    <state width="1483" height="78" key="GridCell.Tab.1.bottom" timestamp="1578733436031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
-    <state width="1342" height="242" key="GridCell.Tab.1.center" timestamp="1576291939493">
+    <state width="1483" height="78" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578733436031" />
+    <state width="1483" height="78" key="GridCell.Tab.1.center" timestamp="1578733436031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
-    <state width="1342" height="242" key="GridCell.Tab.1.left" timestamp="1576291939493">
+    <state width="1483" height="78" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578733436031" />
+    <state width="1483" height="78" key="GridCell.Tab.1.left" timestamp="1578733436031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
-    <state width="1342" height="242" key="GridCell.Tab.1.right" timestamp="1576291939493">
+    <state width="1483" height="78" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578733436031" />
+    <state width="1483" height="78" key="GridCell.Tab.1.right" timestamp="1578733436031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576291939493" />
+    <state width="1483" height="78" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578733436031" />
     <state x="634" y="218" key="Vcs.Push.Dialog.v2" timestamp="1576510700293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="634" y="218" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576510700293" />
-    <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576253552478">
+    <state x="391" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1578370014312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1576253552478" />
+    <state x="391" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578370014312" />
+    <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578370248742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1578370248742" />
+    <state x="536" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578373987953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="536" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1578373987953" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576597381244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
